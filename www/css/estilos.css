@@ -1,1 +1,324 @@
-hello world
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.fondo_ubi{
+    background: #00B3CC;
+}
+.contenedor_ubi{
+    width: 320px;
+}
+.ubicacion{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.contenedor_header{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #004D73;
+}
+header{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+    
+    width: 320px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+}
+.menu a:hover{
+    border-bottom: solid 3px #17a589;
+    
+}
+/*slide*/
+.slider{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../imagenes/fondop.jpeg);
+    background-size: 100% 100%;
+    
+}
+.contenedor_info{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+}
+.contenedor_320{
+    width: 320px;
+    
+}
+/* contenedor servicios */
+.contenedor_servi{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+
+}
+.servi{
+    color: white;
+    width: 320px;
+   
+    background: #004D73;
+    padding: 60px 20px 0px 20px;
+    box-sizing: border-box;
+
+    position: relative;
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.contenedor_circulo{
+    background-color: #00B3CC;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    /*posicionar*/
+    position: absolute;
+    top:-30px;
+    left: 20px;;
+    /*imagen*/
+    background-image: url(../imagenes/iconos/servi1.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+.servi_cont{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9em;
+
+    min-height: 150px;
+}
+
+.servi h3{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+/* boton boton_ini_servi */
+.boton_ini_servi{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.boton_ini_servi a{
+    text-decoration: none;
+    background-color: #00B3CC;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.boton_ini_servi a:hover{
+    background: white;
+    color: #004D73;
+    transition: 0.5s;
+}
+
+/* seccion bienvenido */
+
+.contenedor_bienv{ 
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px 0px 20px 0px;
+    box-sizing: content-box;
+    color: #004D73;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.contenedor_bienv h2{
+    text-align: center;
+    padding-bottom:20px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.contenedor_img{
+    width: 100%;
+    padding-bottom:20px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contenedor_img img{
+    border: 5px solid #004D73;
+    box-sizing: border-box;
+}
+
+/*seccion servicios*/
+
+/*contenedor de servicios ponerle flex*/
+.cont_serv{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*subtitulo*/
+.conte_titu{
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    border-bottom: solid 3px #004D73;
+    margin-bottom: 20px;
+}
+.conte_titu h2{
+    margin-bottom: 10px;
+    color: #004D73;
+}
+/*articulos*/
+.arti_servi{
+    width: 320px;
+    
+    color: #004D73;
+}
+.img_odont{ 
+    margin-bottom: 20px;
+}
+.arti_servi h3{
+    margin-bottom: 10px;
+}
+.arti_servi p{
+    min-height: 150px
+}
+/*boton de los serviciso*/
+.boton_contact{
+    margin-bottom: 50px;
+}
+.boton_contact a{
+    text-decoration: none;
+    /*background: #004D73;*/
+    color: white;
+    font-size: 18px;
+    padding: 10px; 
+    background-color: #00B3CC;
+    
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boton_contact a:hover{
+    background: #004D73;
+    transition: 0.5s;
+    
+}
+
+/*seccion contacto*/
+
+.ubi_contacto{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info_ubi{
+    background-color: #004D73;
+    color: white;
+    width: 650px;
+
+    
+}
+.contenedor_de_img{
+    float: left;
+}
+
+/*footer*/
+
+.fondo_footer{
+    width: 100%;
+    background-color: #004D73;
+}
+.contenedor_footer{
+    width: 90%;
+    
+    margin: auto;
+    max-width: 1000px;
+    color: white;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.parte_logo{
+    width: 320px;
+}
+/*contactenos*/
+.parte_de_contactenos{
+    width: 320px;  
+}
+.parte_de_contactenos h3{
+    margin-bottom: 20px;
+}
+.icono_locacion{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.img_location{
+    margin-right: 10px;
+}
+/*redes sociales*/
+.parte_de_siguenos{
+    width: 320px;
+}
+.parte_de_siguenos h3{
+    margin-bottom: 20px;
+}
+.parte_de_siguenos p{
+    margin-bottom: 20px;
+}
+
+.icono_social{
+    margin-right: 10px;
+}
